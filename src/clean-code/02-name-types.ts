@@ -1,7 +1,7 @@
 (() => {
 
     // arreglo de temperaturas celsius
-    const temperatura = [33.6, 12.34];
+    const temperaturaCelsius = [33.6, 12.34];
 
     // Dirección ip del servidor
     const ipServer = '123.123.123.123';
