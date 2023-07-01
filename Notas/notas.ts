@@ -34,6 +34,7 @@ Nombres de funciones, argumentos y parametros
 
 -- Sabemos que estamos desarrollando código limpio cuando cada función hace exactamente lo que su nombre lo indica. Ward Cunningham
 Los parametros deben ser limitados a 3 parametros o 1 en las funciones para tener un codigo limpio.
+En el caso de tener varios parametros o argumentos se debe crear interfaces.
 
 
 */
