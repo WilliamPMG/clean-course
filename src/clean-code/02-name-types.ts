@@ -7,10 +7,10 @@
     const ipServer = '123.123.123.123';
 
     // Listado de usuarios
-    const userData = [{id: 1, email: 'fernando@google.com'},{ id: 2, email: 'juan@google.com' }, { id: 3, email: 'melissa@google.com' }];
+    const users = [{id: 1, email: 'fernando@google.com'},{ id: 2, email: 'juan@google.com' }, { id: 3, email: 'melissa@google.com' }];
 
     // Listado de emails de los usuarios
-    const emailsUser = userData.map( u => u.email );
+    const emailsUser = users.map( user => user.email );
 
     // Variables booleanas de un video juego
     const canJump = false;
@@ -30,28 +30,23 @@
 
     // Funciones
     // Obtiene los libros
-    function getBook() {
+    function getBooks() {
         throw new Error('Function not implemented.');
     }
 
     // obtiene libros desde un URL
-    function getBooksExterno( u: string) {
+    function getBooksByURL( url: string) {
         throw new Error('Function not implemented.');
     }
     
     // obtiene el área de un cuadrado basado en sus lados
-    function areaCuadrado( s: number ) {
+    function getAreaCuadrado( lado: number ) {
         throw new Error('Function not implemented.');
     }
 
     // imprime el trabajo
-    function printJobIfJobIsActive() {
+    function printJob() {
         throw new Error('Function not implemented.');
     }
-    
-    
-
-
-
 
 })();

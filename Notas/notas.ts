@@ -13,7 +13,27 @@ Clean Code
 - Ausencia de informacion tecnica en  nombres MAL => class UserClass Correcto=> class User
 interface UserInterface Correcto=> interface User
 
+Consideraciones para variables por tipo de dato
+- Los nombres deben ser pronunciables y expresivos. 
 
+Consideraciones de las clases 
+- Las clases deben estar formados por un sustantivo y frase de sustantivo
+- El nombre es lo mas importante de la clase
+- No deben ser muy genericos
+- Usar UpperCamelCase
+*** 3 Preguntas para determinar saber si es un buen nombre para la  clase
+Que exactamente hace la clase?
+Como exactamente esta clase realiza cierta tarea?
+Hay algo especifico sobre su ubicacion?
+
+Tener en cuenta si algo no tiene sentido, remuevelo o refactoriza.
+
+mas palabras !== mejor nombre
+
+Nombres de funciones, argumentos y parametros
+
+-- Sabemos que estamos desarrollando código limpio cuando cada función hace exactamente lo que su nombre lo indica. Ward Cunningham
+Los parametros deben ser limitados a 3 parametros o 1 en las funciones para tener un codigo limpio.
 
 
 */
